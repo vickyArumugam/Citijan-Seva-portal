@@ -196,7 +196,7 @@ header {
 
 nav {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	padding: 20px;
 }
@@ -446,7 +446,7 @@ p {
 	margin: 0 auto;
 	background-color: #ffffff;
 	position: absolute;
-	top: -140px;
+	top: -175%;
 	left: 6%;
 	border-radius: 25px;
 	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.05);
