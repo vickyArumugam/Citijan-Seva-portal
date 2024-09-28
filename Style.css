@@ -126,7 +126,7 @@ body {
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9 !important;
-	min-width: 100px;
+	min-width: 139px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 	border-top: 3px solid #2796f7 !important;
@@ -295,14 +295,16 @@ img.right-logo {
 
 .card h2 {
 	margin: 0 0 10px 0;
-	color: #333;
-	text-align: justify;
+    text-align: justify;
+    color: #1f1f1f !important;
+    font-family: Lato;
+	font-size: 26px;
 }
 
 .card p {
 	margin: 0;
-	color: #666;
-	font-size: 14px;
+	color: #8d8d8d;
+	font-size: 16px;
 	line-height: 1.4;
 	width: 205px;
 }
@@ -313,7 +315,7 @@ img.right-logo {
 
 .card:hover h2,
 .card:hover p {
-	color: #fff;
+	color: #fff !important;
 }
 
 /* section */
@@ -337,7 +339,6 @@ img.right-logo {
 	background-color: white;
 	padding: 40px;
 	border-radius: 10px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 	margin-bottom: 40px;
 	position: relative;
 }
@@ -349,7 +350,6 @@ h2 {
 	width: 70%;
 	margin-left: 200px;
 	line-height: 1.35;
-
 }
 
 .card-3 h2 {
@@ -402,34 +402,23 @@ h2 {
 	display: inline-block;
 	border-radius: 50%;
 	overflow: hidden;
+	position: relative;
 }
 
-.icon_background img {
+.icon img {
 	width: 100px;
 	height: auto;
 }
 
-.icon_background:hover {
-	background-color: rgba(81, 216, 250, 0.486);
-}
-
-.icon img {
-	width: 31px;
-	flex-grow: 0;
-	padding: 30px;
-	object-fit: contain;
-}
-
 h3 {
 	color: #333;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Lato';
 }
 
 p {
 	color: #666;
 	font-family: 'Lato';
-
 }
 
 .service-item a {
