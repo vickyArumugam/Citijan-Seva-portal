@@ -186,7 +186,7 @@ img.line2 {
 /* section1 */
 header {
 	position: relative;
-	background: url('/png/banner.png') no-repeat center center/cover;
+	background: url('banner.png') no-repeat center center/cover;
 	height: 100vh;
 	color: white;
 	background-size: cover;
@@ -500,7 +500,7 @@ p {
 /* section-4 */
 .container-4 {
 	position: relative;
-	background: url('/png/APP\ BG.png') no-repeat center center/cover;
+	background: url('APP\ BG.png') no-repeat center center/cover;
 	height: 801px;
 	color: white;
 	padding: 60px;
