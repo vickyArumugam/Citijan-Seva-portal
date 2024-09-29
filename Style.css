@@ -209,7 +209,7 @@ nav {
 	display: flex;
 	padding: 0;
 	margin-left: 80px;
-	gap: 16px;
+	/* gap: 16px; */
 }
 
 .nav-links li {
